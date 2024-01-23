@@ -46,7 +46,7 @@ void insertion_sort_list(listint_t **list)
 	{
 		replace = i->next;
 		ins = i->prev;
-	
+
 		while (ins != NULL && i->n < ins->n)
 		{
 			node_swap(list, &ins, i);
