@@ -1,5 +1,5 @@
 #include "sort.h"
-#include "help_function.h"
+
 /**
  * main - Entry point
  *

@@ -1,4 +1,8 @@
 #include "sort.h"
+#include "help_function.h"
+
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_array - Prints an array of integers
