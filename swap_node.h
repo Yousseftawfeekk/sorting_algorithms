@@ -1,3 +1,6 @@
+#ifndef SWAP_NODE_H
+#define SWAP_NODE_H
+
 #include "sort.h"
 #include <stdio.h>
 /**
@@ -23,3 +26,5 @@ listint_t *swap_node(listint_t *node, listint_t **list)
 		*list = current;
 	return (current);
 }
+
+#endif
